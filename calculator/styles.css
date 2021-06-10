@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #dddddd;
+}
+.calc-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+label {
+  display: flex;
+  font-family: "Mulish", sans-serif;
+  font-size: 1.5em;
+  color: #39a6a3;
+  font-weight: bold;
+}
+
+input {
+  text-align: right;
+  height: 30px;
+  margin-top: 20px;
+  border: 0;
+  border-radius: 0.4rem;
+  padding-right: 0.5rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+.output {
+  background-color: #fff;
+  display: flex;
+  height: 30px;
+  width: 10.3rem;
+  border: 1px solid gray;
+  margin-top: 2px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border: 0;
+  border-radius: 0.4rem;
+  padding-right: 0.5rem;
+}
+
+.keypad {
+  margin: 1rem;
+}
+
+.btn {
+  padding: 0.8rem;
+  margin-top: 0.3rem;
+}
+
+.period {
+  padding: 0.8rem 0.9rem;
+}
+
+.equals {
+  padding: 0.8rem 0.7rem;
+}
+
+.clear {
+  padding: 0.5rem;
+}
+
+button {
+  transition: all 0.4s ease;
+  border: 0;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  outline: none;
+}
+button:hover {
+  background-color: #39a6a3;
+  box-shadow: none;
+}
