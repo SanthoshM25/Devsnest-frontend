@@ -1,0 +1,12 @@
+body {
+  padding: 1em 2em;
+  font-family: "Arial", sans-serif;
+}
+
+P {
+  margin-bottom: 0;
+}
+
+span {
+  text-decoration: 4px underline yellow;
+}
