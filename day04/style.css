@@ -13,7 +13,7 @@
   width: 400px;
   border: 10px solid blue;
   border-radius: 50%;
-  display: flex;    
+  display: flex;
 }
 
 .hour-hand {
